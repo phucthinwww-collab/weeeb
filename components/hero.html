@@ -1,0 +1,62 @@
+<section id="hero" class="grid-bg">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow-2"></div>
+
+  <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+
+    <div class="hero-anim-1 mb-6">
+      <span class="badge">
+        <span class="badge-dot"></span>
+        <span data-i18n="hero.badge">April 26, 2025 · Ho Chi Minh City</span>
+      </span>
+    </div>
+
+    <h1 class="hero-anim-2 mb-4" style="font-size: clamp(3rem, 8vw, 6rem); font-weight: 800; line-height: 1.05; color: #fff; letter-spacing: -0.02em;">
+      <span data-i18n="hero.title">TechForward</span>
+      <br>
+      <span style="background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;" data-i18n="hero.titleSub">Summit 2025</span>
+    </h1>
+
+    <p class="hero-anim-3 mb-10 mx-auto" style="max-width: 560px; font-size: 1.1rem; color: #94a3b8; line-height: 1.7;" data-i18n="hero.subtitle">
+      Where visionaries, engineers, and founders converge to shape the next decade of technology.
+    </p>
+
+    <div class="hero-anim-4 flex flex-wrap items-center justify-center gap-4 mb-14">
+      <button onclick="openModal()" class="cta-btn">
+        <span data-i18n="hero.cta">Reserve Your Seat</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+      <span style="font-size: 0.8rem; color: #475569;" data-i18n="hero.ctaSub">Limited seats available</span>
+    </div>
+
+    <!-- Countdown -->
+    <div class="hero-anim-5 flex flex-wrap justify-center gap-3">
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-days">00</span>
+        <span class="countdown-label" data-i18n="hero.countdown.days">Days</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-hours">00</span>
+        <span class="countdown-label" data-i18n="hero.countdown.hours">Hours</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-minutes">00</span>
+        <span class="countdown-label" data-i18n="hero.countdown.minutes">Minutes</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="cd-seconds">00</span>
+        <span class="countdown-label" data-i18n="hero.countdown.seconds">Seconds</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-10" style="animation: fadeInUp 1s ease 1.5s both;">
+    <div style="width: 1px; height: 60px; background: linear-gradient(to bottom, rgba(56,189,248,0.6), transparent); margin: 0 auto;"></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>

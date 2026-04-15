@@ -1,0 +1,41 @@
+<section id="register" class="py-24 px-6 md:px-12" style="background: rgba(255,255,255,0.01);">
+  <div class="max-w-2xl mx-auto">
+
+    <div class="text-center mb-12 fade-up">
+      <span class="section-badge" data-i18n="register.badge">Registration</span>
+      <p style="color: #64748b; font-size: 0.95rem;" data-i18n="register.subtitle">Join 500+ builders, founders, and innovators.</p>
+    </div>
+
+    <div class="fade-up" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(29,106,219,0.2); border-radius: 20px; padding: 40px;">
+      <form id="reg-form" onsubmit="submitForm(event)">
+        <div class="grid md:grid-cols-2 gap-5 mb-5">
+          <div>
+            <label class="form-label" data-i18n="register.form.name">Full Name</label>
+            <input type="text" id="f-name" class="form-input" data-i18n-placeholder="register.form.namePlaceholder" placeholder="John Doe" />
+          </div>
+          <div>
+            <label class="form-label" data-i18n="register.form.email">Work Email</label>
+            <input type="email" id="f-email" class="form-input" data-i18n-placeholder="register.form.emailPlaceholder" placeholder="john@company.com" />
+          </div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-5 mb-6">
+          <div>
+            <label class="form-label" data-i18n="register.form.company">Company</label>
+            <input type="text" id="f-company" class="form-input" data-i18n-placeholder="register.form.companyPlaceholder" placeholder="Your company" />
+          </div>
+          <div>
+            <label class="form-label" data-i18n="register.form.role">Your Role</label>
+            <select id="f-role" class="form-input">
+              <option value="" data-i18n="register.form.rolePlaceholder">Select your role</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" id="submit-btn" class="cta-btn w-full justify-center" style="padding: 16px;">
+          <span id="submit-text" data-i18n="register.form.submit">Register Now — It's Free</span>
+        </button>
+        <p class="text-center mt-4" style="font-size: 0.75rem; color: #475569;" data-i18n="register.form.privacy">By registering, you agree to our Terms and Privacy Policy.</p>
+      </form>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "TechForward Summit 2026",
+    "htmlLang": "vi"
+  },
+  "nav": {
+    "about": "Gi\u1edbi thi\u1ec7u",
+    "schedule": "L\u1ecbch tr\u00ecnh",
+    "speakers": "Di\u1ec5n gi\u1ea3",
+    "register": "\u0110\u0103ng k\u00fd"
+  },
+  "hero": {
+    "badge": "26 th\u00e1ng 4, 2026 \u00b7 TP. H\u1ed3 Ch\u00ed Minh",
+    "title": "TechForward",
+    "titleSub": "Summit 2026",
+    "subtitle": "N\u01a1i c\u00e1c nh\u00e0 t\u01b0 t\u01b0\u1edfng, k\u1ef9 s\u01b0 v\u00e0 nh\u00e0 s\u00e1ng l\u1eadp h\u1ed9i t\u1ee5 \u0111\u1ec3 \u0111\u1ecbnh h\u00ecnh th\u1eadp k\u1ef7 c\u00f4ng ngh\u1ec7 ti\u1ebfp theo.",
+    "cta": "\u0110\u0103ng K\u00fd Ch\u1ed7 Ng\u1ed3i",
+    "ctaSub": "S\u1ed1 l\u01b0\u1ee3ng gh\u1ebf c\u00f3 h\u1ea1n",
+    "countdown": {
+      "days": "Ng\u00e0y",
+      "hours": "Gi\u1edd",
+      "minutes": "Ph\u00fat",
+      "seconds": "Gi\u00e2y"
+    }
+  },
+  "about": {
+    "badge": "V\u1ec1 S\u1ef1 Ki\u1ec7n",
+    "title": "H\u1ed9i Ngh\u1ecb D\u00e0nh Cho Th\u1ebf H\u1ec7 L\u00e3nh \u0110\u1ea1o C\u00f4ng Ngh\u1ec7 Ti\u1ebfp Theo",
+    "description": "TechForward Summit quy t\u1ee5 nh\u1eefng b\u1ed9 \u00f3c xu\u1ea5t s\u1eafc nh\u1ea5t trong l\u0129nh v\u1ef1c AI, ph\u00e1t tri\u1ec3n s\u1ea3n ph\u1ea9m v\u00e0 h\u1ec7 sinh th\u00e1i kh\u1edfi nghi\u1ec7p. Trong m\u1ed9t ng\u00e0y \u0111\u1eb7c bi\u1ec7t, b\u1ea1n s\u1ebd nh\u1eadn \u0111\u01b0\u1ee3c nh\u1eefng ki\u1ebfn th\u1ee9c th\u1ef1c ti\u1ec5n, x\u00e2y d\u1ef1ng k\u1ebft n\u1ed1i b\u1ec1n v\u1eefng v\u00e0 ra v\u1ec1 v\u1edbi ngu\u1ed3n c\u1ea3m h\u1ee9ng \u0111\u1ec3 t\u1ea1o ra nh\u1eefng \u0111i\u1ec1u tuy\u1ec7t v\u1eddi.",
+    "stat1": "Di\u1ec5n gi\u1ea3",
+    "stat2": "Ng\u01b0\u1eddi tham d\u1ef1",
+    "stat3": "Workshop",
+    "stat4": "\u0110\u1ed1i t\u00e1c"
+  },
+  "schedule": {
+    "badge": "Ch\u01b0\u01a1ng Tr\u00ecnh",
+    "title": "L\u1ecbch Tr\u00ecnh C\u1ea3 Ng\u00e0y",
+    "items": [
+      { "time": "08:00", "title": "\u0110\u0103ng K\u00fd & C\u00e0 Ph\u00ea Ch\u00e0o M\u1eebng", "desc": "Check-in, nh\u1eadn badge v\u00e0 k\u1ebft n\u1ed1i qua b\u1eefa s\u00e1ng.", "tagKey": "networking", "tag": "K\u1ebft n\u1ed1i" },
+      { "time": "09:00", "title": "B\u00e0i Ph\u00e1t Bi\u1ec3u Khai M\u1ea1c", "desc": "B\u1ee9c tranh c\u00f4ng ngh\u1ec7 \u0110\u00f4ng Nam \u00c1 - xu h\u01b0\u1edbng \u0111\u1ecbnh h\u00ecnh 5 n\u0103m t\u1edbi.", "tagKey": "keynote", "tag": "Keynote" },
+      { "time": "10:30", "title": "AI Th\u1ef1c T\u1ebf: V\u01b0\u1ee3t Ra Ngo\u00e0i L\u00fd Thuy\u1ebft", "desc": "C\u00e1c case study th\u1ef1c t\u1ebf t\u1eeb c\u00e1c c\u00f4ng ty \u0111\u00e3 tri\u1ec3n khai AI \u1edf quy m\u00f4 l\u1edbn.", "tagKey": "talk", "tag": "Talkshow" },
+      { "time": "12:00", "title": "\u0102n Tr\u01b0a & Tri\u1ec3n L\u00e3m", "desc": "Tham quan gian h\u00e0ng \u0111\u1ed1i t\u00e1c, tr\u1ea3i nghi\u1ec7m s\u1ea3n ph\u1ea9m v\u00e0 g\u1eb7p g\u1ee1 nh\u00e0 t\u00e0i tr\u1ee3.", "tagKey": "break", "tag": "Gi\u1ea3i lao" },
+      { "time": "13:30", "title": "Workshop: X\u00e2y D\u1ef1ng App LLM \u0110\u1ea7u Ti\u00ean", "desc": "Th\u1ef1c h\u00e0nh th\u1ef1c t\u1ebf - mang laptop v\u00e0 ho\u00e0n thi\u1ec7n s\u1ea3n ph\u1ea9m tr\u01b0\u1edbc 3 gi\u1edd chi\u1ec1u.", "tagKey": "workshop", "tag": "Workshop" },
+      { "time": "15:00", "title": "T\u1ecda \u0110\u00e0m: M\u1edf R\u1ed9ng Startup", "desc": "C\u00e1c founders chia s\u1ebb b\u00e0i h\u1ecdc th\u1ef1c t\u1ebf t\u1eeb 0 \u0111\u1ebfn Series B.", "tagKey": "panel", "tag": "T\u1ecda \u0111\u00e0m" },
+      { "time": "17:00", "title": "B\u1ebf M\u1ea1c & Ti\u1ec7c K\u1ebft N\u1ed1i", "desc": "K\u1ebft th\u00fac ng\u00e0y v\u1edbi th\u1ee9c u\u1ed1ng, \u00e2m nh\u1ea1c v\u00e0 nh\u1eefng k\u1ebft n\u1ed1i m\u1edbi.", "tagKey": "networking", "tag": "K\u1ebft n\u1ed1i" }
+    ]
+  },
+  "speakers": {
+    "badge": "Di\u1ec5n Gi\u1ea3",
+    "title": "Nh\u1eefng Gi\u1ecdng N\u00f3i \u0110\u1eb3ng C\u1ea5p Th\u1ebf Gi\u1edbi",
+    "items": [
+      { "name": "Sarah Chen", "role": "CTO, NeuralPath AI", "topic": "H\u1ea1 T\u1ea7ng AI Quy M\u00f4 L\u1edbn", "initials": "SC", "color": "blue" },
+      { "name": "Marcus Tanaka", "role": "Partner, Sequoia SEA", "topic": "\u0110\u1ea7u T\u01b0 V\u00e0o Deep Tech", "initials": "MT", "color": "indigo" },
+      { "name": "Linh Nguy\u1ec5n", "role": "Founder, BuildKit", "topic": "C\u00f4ng C\u1ee5 Dev C\u1ee7a T\u01b0\u01a1ng Lai", "initials": "LN", "color": "cyan" },
+      { "name": "David Park", "role": "VP Product, Stripe", "topic": "Thi\u1ebft K\u1ebf Cho Developer", "initials": "DP", "color": "blue" },
+      { "name": "Aiko Yamamoto", "role": "Research Lead, DeepMind", "topic": "An To\u00e0n & Alignment AGI", "initials": "AY", "color": "indigo" },
+      { "name": "Raj Patel", "role": "CEO, CloudSprint", "topic": "X\u00e2y D\u1ef1ng To\u00e0n C\u1ea7u T\u1eeb Ng\u00e0y 1", "initials": "RP", "color": "cyan" },
+      { "name": "Hu\u1ef3nh Vi\u1ebft Ph\u00fac Th\u1ecbnh", "role": "Tr\u01b0\u1edfng Ph\u00f2ng S\u1ea3n Ph\u1ea9m, TechVision", "topic": "Chi\u1ebfn l\u01b0\u1ee3c S\u1ea3n Ph\u1ea9m trong Th\u1eddi AI", "initials": "HV", "color": "blue" },
+      { "name": "Nguy\u1ec5n Quang Tr\u01b0\u1eddng", "role": "Nh\u00e0 S\u00e1ng L\u1eadp, InnovateLab", "topic": "T\u1eeb \u00dd t\u01b0\u1edfng \u0111\u1ebfn Quy M\u00f4 Kinh Doanh", "initials": "NQ", "color": "indigo" },
+      { "name": "Nguy\u1ec5n V\u0103n H\u1ea3i", "role": "Chuy\u00ean Gia B\u1ea3o M\u1eadt, CloudDefense", "topic": "B\u1ea3o M\u1eadt Web Hi\u1ec7n \u0110\u1ea1i", "initials": "NV", "color": "cyan" },
+      { "name": "Nguy\u1ec5n Th\u00e0nh Long", "role": "K\u1ef9 S\u01b0 Hi\u1ec7u N\u0103ng, FastStack", "topic": "T\u1ed1i \u01b0u Hi\u1ec7u N\u0103ng Web", "initials": "NT", "color": "blue" }
+    ]
+  },
+  "register": {
+    "badge": "\u0110\u0103ng K\u00fd",
+    "title": "\u0110\u1eb7t Ch\u1ed7 Ngay",
+    "subtitle": "Tham gia c\u00f9ng 500+ developers, founders v\u00e0 nh\u00e0 \u0111\u1ed5i m\u1edbi t\u1ea1i TechForward Summit 2026.",
+    "form": {
+      "name": "H\u1ecd v\u00e0 T\u00ean",
+      "namePlaceholder": "Nguy\u1ec5n V\u0103n A",
+      "email": "Email C\u00f4ng Ty",
+      "emailPlaceholder": "ten@congty.com",
+      "company": "C\u00f4ng Ty",
+      "companyPlaceholder": "T\u00ean c\u00f4ng ty c\u1ee7a b\u1ea1n",
+      "role": "Vai Tr\u00f2",
+      "rolePlaceholder": "Ch\u1ecdn vai tr\u00f2 c\u1ee7a b\u1ea1n",
+      "roles": ["K\u1ef9 s\u01b0 / Developer", "Product Manager", "Founder / CEO", "Nh\u00e0 \u0111\u1ea7u t\u01b0", "Designer", "Kh\u00e1c"],
+      "submit": "\u0110\u0103ng K\u00fd Ngay - Mi\u1ec5n Ph\u00ed",
+      "submitting": "\u0110ang \u0111\u0103ng k\u00fd...",
+      "privacy": "Khi \u0111\u0103ng k\u00fd, b\u1ea1n \u0111\u1ed3ng \u00fd v\u1edbi \u0110i\u1ec1u kho\u1ea3n v\u00e0 Ch\u00ednh s\u00e1ch B\u1ea3o m\u1eadt. Ch\u00fang t\u00f4i s\u1ebd kh\u00f4ng spam b\u1ea1n."
+    }
+  },
+  "footer": {
+    "tagline": "S\u1ef1 ki\u1ec7n c\u00f4ng ngh\u1ec7 h\u00e0ng \u0111\u1ea7u \u0110\u00f4ng Nam \u00c1.",
+    "links": [
+      { "label": "Gi\u1edbi thi\u1ec7u", "href": "#about" },
+      { "label": "Di\u1ec5n gi\u1ea3", "href": "#speakers" },
+      { "label": "L\u1ecbch tr\u00ecnh", "href": "#schedule" },
+      { "label": "\u0110\u0103ng k\u00fd", "href": "#register" }
+    ],
+    "copy": "\u00a9 2026 TechForward Summit. M\u1ecdi quy\u1ec1n \u0111\u01b0\u1ee3c b\u1ea3o l\u01b0u.",
+    "madein": "\u0110\u01b0\u1ee3c t\u1ea1o v\u1edbi \u2665 t\u1ea1i TP. H\u1ed3 Ch\u00ed Minh"
+  },
+  "toast": {
+    "success": "\u0110\u0103ng k\u00fd th\u00e0nh c\u00f4ng! Ki\u1ec3m tra email c\u1ee7a b\u1ea1n \u0111\u1ec3 x\u00e1c nh\u1eadn.",
+    "error": "Vui l\u00f2ng \u0111i\u1ec1n \u0111\u1ea7y \u0111\u1ee7 th\u00f4ng tin b\u1eaft bu\u1ed9c."
+  }
+}

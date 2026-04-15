@@ -1,0 +1,46 @@
+<div id="modal-overlay" onclick="closeModalOutside(event)">
+  <div id="modal-box">
+    <div class="flex justify-between items-start mb-8">
+      <div>
+        <span class="section-badge" data-i18n="register.badge">Registration</span>
+        <h3 style="font-size: 1.7rem; font-weight: 800; color: #fff; margin-top: 8px;" data-i18n="register.title">Secure Your Spot</h3>
+      </div>
+      <button onclick="closeModal()" style="color: #475569; background: none; border: none; cursor: pointer; padding: 4px;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <form id="modal-form" onsubmit="submitModalForm(event)">
+      <div class="grid gap-4 mb-4">
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="form-label" data-i18n="register.form.name">Full Name</label>
+            <input type="text" id="m-name" class="form-input" data-i18n-placeholder="register.form.namePlaceholder" placeholder="John Doe"/>
+          </div>
+          <div>
+            <label class="form-label" data-i18n="register.form.email">Work Email</label>
+            <input type="email" id="m-email" class="form-input" data-i18n-placeholder="register.form.emailPlaceholder" placeholder="john@company.com"/>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="form-label" data-i18n="register.form.company">Company</label>
+            <input type="text" id="m-company" class="form-input" data-i18n-placeholder="register.form.companyPlaceholder" placeholder="Company"/>
+          </div>
+          <div>
+            <label class="form-label" data-i18n="register.form.role">Your Role</label>
+            <select id="m-role" class="form-input">
+              <option value="" data-i18n="register.form.rolePlaceholder">Select your role</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="modal-submit-btn" class="cta-btn w-full justify-center" style="padding: 16px;">
+        <span id="modal-submit-text" data-i18n="register.form.submit">Register Now — It's Free</span>
+      </button>
+      <p class="text-center mt-3" style="font-size: 0.72rem; color: #475569;" data-i18n="register.form.privacy">By registering, you agree to our Terms and Privacy Policy.</p>
+    </form>
+  </div>
+</div>

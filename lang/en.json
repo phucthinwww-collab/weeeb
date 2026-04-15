@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "TechForward Summit 2026",
+    "htmlLang": "en"
+  },
+  "nav": {
+    "about": "About",
+    "schedule": "Schedule",
+    "speakers": "Speakers",
+    "register": "Register"
+  },
+  "hero": {
+    "badge": "Start Date: April 26, 2026 · Ho Chi Minh City",
+    "title": "TechForward",
+    "titleSub": "Summit 2026",
+    "subtitle": "Where visionaries, engineers, and founders converge to shape the next decade of technology.",
+    "cta": "Reserve Your Seat",
+    "ctaSub": "Limited seats available",
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    }
+  },
+  "about": {
+    "badge": "About the Event",
+    "title": "A Summit Built for the Next Generation of Tech Leaders",
+    "description": "TechForward Summit brings together the brightest minds in AI, product development, and startup ecosystems. Over one transformative day, you'll gain actionable insights, forge lasting connections, and leave inspired to build what's next.",
+    "stat1": "Speakers",
+    "stat2": "Attendees",
+    "stat3": "Workshops",
+    "stat4": "Partners"
+  },
+  "schedule": {
+    "badge": "Program",
+    "title": "Full Day Agenda",
+    "items": [
+      { "time": "08:00", "title": "Registration & Welcome Coffee", "desc": "Check in, get your badge, and network over breakfast.", "tagKey": "networking", "tag": "Networking" },
+      { "time": "09:00", "title": "Opening Keynote", "desc": "The State of Tech in Southeast Asia - trends that will define the next 5 years.", "tagKey": "keynote", "tag": "Keynote" },
+      { "time": "10:30", "title": "AI in Production: Beyond the Hype", "desc": "Real-world case studies from companies who shipped AI at scale.", "tagKey": "talk", "tag": "Talk" },
+      { "time": "12:00", "title": "Lunch & Expo", "desc": "Visit partner booths, demo products, and connect with sponsors.", "tagKey": "break", "tag": "Break" },
+      { "time": "13:30", "title": "Workshop: Build Your First LLM App", "desc": "Hands-on session - bring your laptop and ship something by 3 PM.", "tagKey": "workshop", "tag": "Workshop" },
+      { "time": "15:00", "title": "Fireside Chat: Scaling a Startup", "desc": "Founders share unfiltered lessons from 0 to Series B.", "tagKey": "panel", "tag": "Panel" },
+      { "time": "17:00", "title": "Closing & Networking Party", "desc": "Wrap up the day with drinks, music, and new connections.", "tagKey": "networking", "tag": "Networking" }
+    ]
+  },
+  "speakers": {
+    "badge": "Speakers",
+    "title": "World-Class Voices on Stage",
+    "items": [
+      { "name": "Sarah Chen", "role": "CTO, NeuralPath AI", "topic": "AI Infrastructure at Scale", "initials": "SC", "color": "blue" },
+      { "name": "Marcus Tanaka", "role": "Partner, Sequoia SEA", "topic": "Investing in Deep Tech", "initials": "MT", "color": "indigo" },
+      { "name": "Linh Nguyen", "role": "Founder, BuildKit", "topic": "Developer Tools of Tomorrow", "initials": "LN", "color": "cyan" },
+      { "name": "David Park", "role": "VP Product, Stripe", "topic": "Designing for Developers", "initials": "DP", "color": "blue" },
+      { "name": "Aiko Yamamoto", "role": "Research Lead, DeepMind", "topic": "AGI Safety & Alignment", "initials": "AY", "color": "indigo" },
+      { "name": "Raj Patel", "role": "CEO, CloudSprint", "topic": "Building Global from Day 1", "initials": "RP", "color": "cyan" },
+      { "name": "Huynh Viet Phuc Thinh", "role": "Head of Product, TechVision", "topic": "Product Strategy in AI Era", "initials": "HV", "color": "blue" },
+      { "name": "Nguyen Quang Truong", "role": "Founder, InnovateLab", "topic": "From Idea to Scale as Entrepreneur", "initials": "NQ", "color": "indigo" },
+      { "name": "Nguyen Van Hai", "role": "Security Lead, CloudDefense", "topic": "Web Security Best Practices", "initials": "NV", "color": "cyan" },
+      { "name": "Nguyen Thanh Long", "role": "Performance Engineer, FastStack", "topic": "Optimizing Web Performance", "initials": "NT", "color": "blue" }
+    ]
+  },
+  "register": {
+    "badge": "Registration",
+    "title": "Secure Your Spot",
+    "subtitle": "Join 500+ builders, founders, and innovators at TechForward Summit 2026.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Work Email",
+      "emailPlaceholder": "john@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "role": "Your Role",
+      "rolePlaceholder": "Select your role",
+      "roles": ["Engineer / Developer", "Product Manager", "Founder / CEO", "Investor", "Designer", "Other"],
+      "submit": "Register Now - It's Free",
+      "submitting": "Registering...",
+      "privacy": "By registering, you agree to our Terms and Privacy Policy. We'll never spam you."
+    }
+  },
+  "footer": {
+    "tagline": "The premier tech event in Southeast Asia.",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Speakers", "href": "#speakers" },
+      { "label": "Schedule", "href": "#schedule" },
+      { "label": "Register", "href": "#register" }
+    ],
+    "copy": "\u00a9 2026 TechForward Summit. All rights reserved.",
+    "madein": "Made with \u2665 in Ho Chi Minh City"
+  },
+  "toast": {
+    "success": "You're registered! Check your email for confirmation.",
+    "error": "Please fill in all required fields."
+  }
+}
